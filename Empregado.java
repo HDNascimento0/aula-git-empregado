@@ -15,7 +15,7 @@ public class Empregado{
             return salario+salario*comissao;
 
         }else if(tipo == 3){
-            
+
             return salario +bonus;
 
         }else{
@@ -24,9 +24,9 @@ public class Empregado{
 
         }
 
-
-
     }
+
+    
 
 
 
