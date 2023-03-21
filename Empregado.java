@@ -4,6 +4,7 @@ public class Empregado{
     private int idade;
     private int tipo;
     private double salario,comissao,bonus;
+    
 
     public double calcularSalario(){
         if (tipo==1){
@@ -26,10 +27,6 @@ public class Empregado{
 
     }
 
-    
-
-
-
 
     public String getNome() {
         return nome;
@@ -43,6 +40,16 @@ public class Empregado{
     public void setIdade(int idade) {
         this.idade = idade;
     }
+
+    public int getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(int tipo) {
+        this.tipo = tipo;
+    }
+
+
 
 
 
